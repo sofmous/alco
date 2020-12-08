@@ -66,7 +66,7 @@ void readfile()
     read_data("pur-s-93.stu",30029,2419);
     read_data("rye-s-93.stu",11483,486);
     read_data("sta-f-83.stu",611,139);
-    read_data("tre-s-62.stu",4360,261);
+    read_data("tre-s-92.stu",4360,261);
     read_data("uta-s-92.stu",21266,622);
     read_data("ute-s-92.stu",2749,184);
     read_data("yor-f-83.stu",941,181); 
