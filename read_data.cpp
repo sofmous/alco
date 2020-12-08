@@ -56,44 +56,26 @@ void read_data(string fn, int students, int exams)
 
 void readfile()
 {
+
     read_data("car-f-92.stu",18419,543);
+    read_data("car-s-91.stu",16925,682);
+    read_data("ear-f-83.stu",1125,190);
+    read_data("hec-s-92.stu",2823,81);
+    read_data("kfu-s-93.stu",5349,461);
+    read_data("lse-f-91.stu",2726,381);
+    read_data("pur-s-93.stu",30029,2419);
+    read_data("rye-s-93.stu",11483,486);
+    read_data("sta-f-83.stu",611,139);
+    read_data("tre-s-62.stu",4360,261);
+    read_data("uta-s-92.stu",21266,622);
+    read_data("ute-s-92.stu",2749,184);
+    read_data("yor-f-83.stu",941,181); 
 }
+
 
 int main()
 {
-    //    read_data("../datasets/car-f-92.stu", 18419, 543);
+    
     //read_data("../datasets/toy_e5_s6.stu", 6, 5);
     readfile();
 }
-
-/*
-Student 1 is enrolled in exam 1
-Student 1 is enrolled in exam 2
-Student 2 is enrolled in exam 3
-Student 2 is enrolled in exam 4
-Student 2 is enrolled in exam 5
-Student 3 is enrolled in exam 3
-Student 3 is enrolled in exam 5
-Student 4 is enrolled in exam 2
-Student 5 is enrolled in exam 1
-Student 5 is enrolled in exam 3
-Student 6 is enrolled in exam 3
-Student 6 is enrolled in exam 5
-#################################
-Exam 1 Enrolled students: 1 5
-Exam 2 Enrolled students: 1 4
-Exam 3 Enrolled students: 2 3 5 6
-Exam 4 Enrolled students: 2
-Exam 5 Enrolled students: 2 3 6
-1 2 1
-1 3 1
-2 1 1
-3 1 1
-3 4 1
-3 5 3
-4 3 1
-4 5 1
-5 3 3
-5 4 1
-Conflict Density: 0.4
-*/
