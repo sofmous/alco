@@ -56,26 +56,25 @@ void read_data(string fn, int students, int exams)
 
 void readfile()
 {
-
-    read_data("car-f-92.stu",18419,543);
-    read_data("car-s-91.stu",16925,682);
-    read_data("ear-f-83.stu",1125,190);
-    read_data("hec-s-92.stu",2823,81);
-    read_data("kfu-s-93.stu",5349,461);
-    read_data("lse-f-91.stu",2726,381);
-    read_data("pur-s-93.stu",30029,2419);
-    read_data("rye-s-93.stu",11483,486);
-    read_data("sta-f-83.stu",611,139);
-    read_data("tre-s-92.stu",4360,261);
-    read_data("uta-s-92.stu",21266,622);
-    read_data("ute-s-92.stu",2749,184);
-    read_data("yor-f-83.stu",941,181); 
+    read_data("datasets/car-f-92.stu",18419,543);
+    read_data("datasets/car-s-91.stu",16925,682);
+    read_data("datasets/ear-f-83.stu",1125,190);
+    read_data("datasets/hec-s-92.stu",2823,81);
+    read_data("datasets/kfu-s-93.stu",5349,461);
+    read_data("datasets/lse-f-91.stu",2726,381);
+    read_data("datasets/pur-s-93.stu",30029,2419);
+    read_data("datasets/rye-s-93.stu",11483,486);
+    read_data("datasets/sta-f-83.stu",611,139);
+    read_data("datasets/tre-s-62.stu",4360,261);
+    read_data("datasets/uta-s-92.stu",21266,622);
+    read_data("datasets/ute-s-92.stu",2749,184);
+    read_data("datasets/yor-f-83.stu",941,181);
 }
 
 
 int main()
 {
     
-    //read_data("../datasets/toy_e5_s6.stu", 6, 5);
+    //read_data("datasets/toy_e5_s6.stu", 6, 5);
     readfile();
 }
